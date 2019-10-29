@@ -65,7 +65,7 @@ public class VarastoTest {
     @Test
     public void tyhjäAloitusSaldoNollataan() {
         Varasto v = new Varasto(10.0, -4.0);
-        assertEquals(1, v.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, v.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
