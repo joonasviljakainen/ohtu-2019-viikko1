@@ -81,6 +81,12 @@ public class VarastoTest {
         assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
     }
 
+    @Test 
+    public void josLisätäänEnemmänKuinTilaaNiinMääräOnTila() {
+        varasto.lisaaVarastoon(40);
+        assertEquals(10, varasto.getSaldo(), vertailuTarkkuus);
+    }
+
     @Test
     public void lisaysLisaaPienentaaVapaataTilaa() {
         varasto.lisaaVarastoon(8);
