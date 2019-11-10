@@ -8,4 +8,6 @@
 
 <a href="https://codeclimate.com/github/joonasviljakainen/ohtu-2019-viikko1/maintainability"><img src="https://api.codeclimate.com/v1/badges/edf300e820e4e70e6c89/maintainability" /></a>
 
+This is the link to the second repository, one which contains additional tasks for week 1 & 2:
+
 https://github.com/joonasviljakainen/ohtu-2019
